@@ -1,0 +1,309 @@
+*{	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-size: 16px;
+	max-width: 1000px;
+	max-height: 1758px;
+	background: #222B89;
+	font-family: "Montserrat-Bold";
+}
+img{
+	max-width: 100%;
+}
+.wrapper{
+	margin: 10px 200px 42px 200px; 
+	background: #0F133A;
+    flex-wrap: wrap;
+    
+}
+.container{
+	padding: 0 20px 0 20px;
+
+
+}
+
+
+/*-----------Header----------------*/
+
+header{
+
+	max-width: 600px;
+	max-height: 360px;
+	background:	url(../img/person.png),
+	url(../img/room.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-blend-mode: contain;
+
+}
+header .container{
+
+}
+.header__top{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.header__logo{
+	display: flex;
+}
+.logo__title{
+	padding: 5px 0 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+
+
+}
+
+.header__menu{
+	display: flex;
+
+}
+ul{
+	list-style: none;
+}
+li a{
+	color: #fff;
+	padding-left: 35px;
+	text-decoration: none;
+
+}
+.location:before{
+	font-family: "icomoon";
+	content: "\e900";
+
+}
+.facebook:before{
+	font-family: icomoon;
+	content: "\ea91";
+}
+.insta:before{
+	font-family: "icomoon";
+	content: "\ea92";
+}
+.youtube:before{
+	font-family: "icomoon";
+	content: "\ea9d";
+}
+
+/*-----------------header-content--------*/
+.header__content{
+	color: #fff;
+	max-width: 263px;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 100%;
+}
+.header__content-title{
+	margin: 44px 0 6px 0px;
+	font-size: 32px;
+	font-weight: 600;
+}
+.header__content-text{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.header__content-btn{
+	background: linear-gradient(180deg, #001DFF 0%, #0010A9 100%), #001DFF;
+	border-radius: 30px;
+	text-align: center;
+	width: 303px;
+	padding: 16px 0;
+
+}
+.header__content-btn a{
+	
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.02em;
+	
+}
+
+
+/*--------------------------main----------------------*/
+
+
+.main__text{
+	color: #fff;
+	padding: 75px 0 33px 0;
+	
+}
+span{
+	font-size: 16px;
+
+}
+.main__btn{
+	background: linear-gradient(180deg, #001DFF 0%, #0010A9 100%), #001DFF;
+	border-radius: 30px;
+	text-align: center;
+	width: 303px;
+	padding: 16px 0;
+	margin: 0 auto;
+	min-width: 730;
+}
+a{
+	color: #fff;
+	text-decoration: none;	
+}
+
+
+
+/*------------------------------*/
+
+
+
+
+.main__items{
+	margin-top: 50px;
+}
+.item{
+	max-width: 200px;
+	max-height: 390px;
+	text-align: left;
+	color: #fff;
+	line-height: 24px;
+	font-size: 18px;
+	padding-bottom: 35px;
+}
+.item-price{
+	margin-bottom: 20px;
+}
+.item a{
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	border-radius: 30px;
+}
+.items-inner1{
+	display: flex;
+}
+.items-inner2{
+	display: flex;
+}
+.split{
+	width: 558px;
+	height: 0px;
+	border: 1px solid #292F6D;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+
+.services{
+
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+.delivery-img:before{
+	font-family: "icomoon";
+	content: "\e9b0";
+	font-size: 40px;
+}
+.support-img:before{
+	font-family: "icomoon";
+	content: "\e901";
+	font-size: 40px;
+}
+.return-img:before{
+	font-family: "icomoon";
+	content: "\e902";
+	font-size: 40px;
+}
+.delivery-inner{
+	text-align: center;
+}
+.support-inner{
+	text-align: center;
+}
+.return-inner{
+	text-align: center;
+}
+
+.delivery-link{
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;	
+}
+.support-link{
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;	
+}
+.return-link{
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;	
+}
+
+
+/*---------------footer----------------------*/
+
+.footer__inner{
+	padding: 20px 0px 0 0;
+	border-top: 1px solid #292F6D;
+	border-bottom: 1px solid #292F6D;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__top{
+	display: flex;
+	
+}
+.footer__email{
+	margin-left: 100px;
+	color: #4A519A;
+	font-size: 16px;
+}
+.footer__menu{
+	display: flex;
+
+}
+
+
+.footer-location:before{
+	font-family: "icomoon";
+	content: "\e900";
+	color: #4A519A;
+
+}
+.footer-facebook:before{
+	font-family: icomoon;
+	content: "\ea91";
+	color: #4A519A;
+}
+.footer-insta:before{
+	font-family: "icomoon";
+	content: "\ea92";
+	color: #4A519A;
+}
+.footer-youtube:before{
+	font-family: "icomoon";
+	content: "\ea9d";
+	color: #4A519A;
+}
+
+.footer__copyright{
+	color: #4A519A;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.copyright-link{
+	text-decoration: underline;
+	color: #4A519A;
+}
